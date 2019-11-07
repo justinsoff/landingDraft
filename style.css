@@ -88,6 +88,7 @@ img {
 .logo {
     grid-column: 1/3;
     grid-row: 1/2;
+
 }
 
 .search {
@@ -132,6 +133,40 @@ img {
     grid-column: 1 / 5;
     grid-row: 1 / 5;
     margin-top: 20px;
+}
+
+.sevenSub {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(30px, 60px);
+    grid-gap: 10px;
+    max-width: 600px;
+    margin: 10px auto;
+    align-content: center;
+}
+
+.sevenSub div {
+    background: grey;
+    color: white;
+    /* margin-bottom: 10px; */
+    padding: 20px 20px;
+    border-radius: 5px;
+
+}
+
+.seven01 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.seven02 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+.seven03 {
+    grid-column: 4/9;
+    grid-row: 1/4;
 }
 
 .eight {
